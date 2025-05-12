@@ -47,8 +47,8 @@ StockVision/
 ### Passos (Sem Docker)
 1. Clone o repositório:
    ```bash
-git clone https://github.com/Daikiry/stockvision
-cd stockvision
+   git clone https://github.com/Daikiry/stockvision
+   cd stockvision
 
 Instale as dependências do back-end:
 bash
@@ -94,4 +94,3 @@ pytest tests/
 Desenvolvido por Eduardo Daiki Riboldi Yamamoto.
  Licença
 Este projeto é licenciado sob a MIT License (LICENSE).
-
