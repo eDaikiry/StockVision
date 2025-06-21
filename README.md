@@ -47,50 +47,57 @@ StockVision/
 - Live Server extension in VS Code (for serving the front-end).
 
 #### Steps (Without Docker)
-1. Clone the repository:
+### 1. Clone the repository:
    ```bash
    git clone https://github.com/Daikiry/stockvision
    cd stockvision
+   ```
+   
+### 2. Install back-end dependencies:
 
-Install back-end dependencies:
-
+```bash
 cd backend
 pip install -r requirements.txt
+```
 
-Start the Flask server:
+### 3. Start the Flask server:
 
+```bash
 python app.py
+```
+### 4. Open the Front-End
 
-Open the front-end:
-Navigate to the frontend/ folder.
+1. Navigate to the `frontend/` folder.
+2. Open `index.html` using the **Live Server** extension in VS Code.
+   - The project will be available at: [http://localhost:5500](http://localhost:5500)
 
-Open index.html with the Live Server extension in VS Code (http://localhost:5500).
+---
 
-Access the system in the browser:
-URL: http://localhost:5500
+### Running with Docker
 
-Steps (With Docker)
-Clone the repository (as above).
-
-Start the containers:
-docker-compose up --build
-
+1. Clone the repository (see instructions above).
+2. Start the containers:
+   ```bash
+   docker-compose up --build
+   ```
 Access:
 Front-end: http://localhost:5500
-
 Back-end: http://localhost:5000/estoque
+
 
 Running Tests
 In the backend/ folder:
-pytest tests/
 
+```bash
+pytest tests/
+```
 Screenshots
 (To be added soon in the screenshots/ folder)
 Credits
 Developed by Eduardo Daiki Riboldi Yamamoto.
 License
 This project is licensed under the MIT License (LICENSE).
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Português README
 
 StockVision é um sistema web para gerenciamento e visualização de estoque, com uma interface interativa e uma API RESTful. 
@@ -119,7 +126,7 @@ Testes: Pytest
 
 DevOps: Docker, Docker Compose
 
-Estrutura do Projeto:
+Estrutura do Projeto
 
 StockVision/
 ├── backend/                # Código do back-end (Flask)
@@ -139,7 +146,7 @@ StockVision/
 
 Como Rodar Localmente
 Pré-requisitos
-Python 3.9+ ([instale aqui](https://www.python.org/downloads/))/
+Python 3.9+ instale aqui.
 
 Docker (opcional, para rodar com contêineres) instale aqui.
 
@@ -149,16 +156,20 @@ Extensão Live Server no VS Code (para servir o front-end).
 
 Passos (Sem Docker)
 Clone o repositório:
+bash
 
 git clone https://github.com/Daikiry/stockvision
 cd stockvision
 
 Instale as dependências do back-end:
+bash
 
 cd backend
 pip install -r requirements.txt
 
 Inicie o servidor Flask:
+bash
+
 python app.py
 
 Abra o front-end:
@@ -172,6 +183,9 @@ URL: http://localhost:5500
 Passos (Com Docker)
 Clone o repositório (como acima).
 
+Inicie os containers:
+bash
+
 docker-compose up --build
 
 Acesse:
@@ -181,6 +195,8 @@ Back-end: http://localhost:5000/estoque
 
 Executando Testes
 Na pasta backend/:
+bash
+
 pytest tests/
 
 Capturas de Tela
@@ -189,5 +205,4 @@ Créditos
 Desenvolvido por Eduardo Daiki Riboldi Yamamoto.
 Licença
 Este projeto é licenciado sob a MIT License (LICENSE).
-
 
