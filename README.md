@@ -48,6 +48,7 @@ StockVision/
 
 #### Steps (Without Docker)
 ### 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Daikiry/stockvision
    cd stockvision
@@ -65,6 +66,7 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+
 ### 4. Open the Front-End
 
 1. Navigate to the `frontend/` folder.
@@ -77,56 +79,61 @@ python app.py
 
 1. Clone the repository (see instructions above).
 2. Start the containers:
+
    ```bash
    docker-compose up --build
    ```
-Access:
-Front-end: http://localhost:5500
-Back-end: http://localhost:5000/estoque
 
+Access:
+Front-end: `http://localhost:5500`
+Back-end: `http://localhost:5000/estoque`
 
 Running Tests
 In the backend/ folder:
-
 ```bash
 pytest tests/
 ```
+
 Screenshots
 (To be added soon in the screenshots/ folder)
 Credits
 Developed by Eduardo Daiki Riboldi Yamamoto.
 License
 This project is licensed under the MIT License (LICENSE).
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Português README
+## Português README
 
-StockVision é um sistema web para gerenciamento e visualização de estoque, com uma interface interativa e uma API RESTful. 
-Desenvolvido por Eduardo Daiki Riboldi Yamamoto, o projeto demonstra habilidades em desenvolvimento full-stack, integração com banco de dados e práticas modernas de DevOps.
-Funcionalidades
-Visualização de estoque em gráficos de barras dinâmicos com Chart.js.
+## StockVision é um sistema web para gerenciamento e visualização de estoque, com uma interface interativa e uma API RESTful. 
+### Desenvolvido por Eduardo Daiki Riboldi Yamamoto, o projeto demonstra habilidades em desenvolvimento full-stack, integração com banco de dados e práticas modernas de DevOps. 
 
-Gerenciamento de produtos via API (adicionar, listar, zerar estoque).
+## Funcionalidades:
 
-Interface responsiva com formulário para adicionar produtos e botão "Zerar Estoque" com feedback visual.
+### Visualização de estoque em gráficos de barras dinâmicos com Chart.js.
 
-Banco de dados SQLite para persistência de dados.
+### Gerenciamento de produtos via API (adicionar, listar, zerar estoque).
 
-Testes unitários para a API com Pytest.
+### Interface responsiva com formulário para adicionar produtos e botão "Zerar Estoque" com feedback visual.
 
-Configuração com Docker para implantação simplificada.
+### Banco de dados SQLite para persistência de dados.
 
-Tecnologias
-Front-end: HTML, CSS, JavaScript, Chart.js
+### Testes unitários para a API com Pytest.
 
-Back-end: Python, Flask, Flask-SQLAlchemy, Flask-Cors
+### Configuração com Docker para implantação simplificada.
 
-Banco de Dados: SQLite
+## Tecnologias
 
-Testes: Pytest
+### Front-end: HTML, CSS, JavaScript, Chart.js
 
-DevOps: Docker, Docker Compose
+### Back-end: Python, Flask, Flask-SQLAlchemy, Flask-Cors
 
-Estrutura do Projeto
+### Banco de Dados: SQLite
+
+### Testes: Pytest
+
+### DevOps: Docker, Docker Compose
+
+## Estrutura do Projeto:
 
 StockVision/
 ├── backend/                # Código do back-end (Flask)
@@ -144,11 +151,13 @@ StockVision/
 ├── README.md               # Documentação
 └── LICENSE                 # Licença MIT
 
-Como Rodar Localmente
-Pré-requisitos
-Python 3.9+ instale aqui.
+Como Rodar Localmente:
 
-Docker (opcional, para rodar com contêineres) instale aqui.
+## Pré-requisitos
+
+Python 3.9+ ([install here](https://www.python.org/downloads/)).
+
+Docker (opcional, para rodar com contêineres) ([install here](https://www.docker.com/get-started)).
 
 Um navegador moderno (Chrome, Firefox, etc.).
 
@@ -156,48 +165,52 @@ Extensão Live Server no VS Code (para servir o front-end).
 
 Passos (Sem Docker)
 Clone o repositório:
-bash
 
+```bash
 git clone https://github.com/Daikiry/stockvision
 cd stockvision
+```
 
 Instale as dependências do back-end:
-bash
 
+```bash
 cd backend
 pip install -r requirements.txt
+```
 
 Inicie o servidor Flask:
-bash
 
+```bash
 python app.py
+```
 
-Abra o front-end:
-Navegue até a pasta frontend/.
+Abra o `front-end`:
+Navegue até a pasta `frontend/`.
 
-Abra index.html com a extensão Live Server no VS Code (http://localhost:5500).
+Abra `index.html` com a extensão Live Server no VS Code (`http://localhost:5500`).
 
 Acesse o sistema no navegador:
-URL: http://localhost:5500
+`URL: http://localhost:5500`
 
 Passos (Com Docker)
 Clone o repositório (como acima).
 
 Inicie os containers:
-bash
 
+```bash
 docker-compose up --build
+```
 
 Acesse:
-Front-end: http://localhost:5500
+Front-end: `http://localhost:5500`
+Back-end: `http://localhost:5000/estoque`
 
-Back-end: http://localhost:5000/estoque
+Executando Testes:
+Na pasta `backend/`:
 
-Executando Testes
-Na pasta backend/:
-bash
-
+```bash
 pytest tests/
+```
 
 Capturas de Tela
 (Em breve, capturas serão adicionadas na pasta screenshots/)
