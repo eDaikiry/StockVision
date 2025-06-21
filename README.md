@@ -98,10 +98,14 @@ Screenshots
 (To be added soon in the screenshots/ folder)
 Credits
 Developed by Eduardo Daiki Riboldi Yamamoto.
-License
-This project is licensed under the MIT License (LICENSE).
+
+## License
+
+This project is protected by copyright and its use is subject to the terms outlined in the LICENSE file.  
+You may not copy, distribute, modify, or reuse this code without prior written permission from the author.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Português README
 
 ## StockVision é um sistema web para gerenciamento e visualização de estoque, com uma interface interativa e uma API RESTful. 
@@ -214,8 +218,10 @@ pytest tests/
 
 Capturas de Tela
 (Em breve, capturas serão adicionadas na pasta screenshots/)
-Créditos
-Desenvolvido por Eduardo Daiki Riboldi Yamamoto.
-Licença
-Este projeto é licenciado sob a MIT License (LICENSE).
 
+Desenvolvido por Eduardo Daiki Riboldi Yamamoto.
+
+## Licença
+
+Este projeto está protegido por direitos autorais e seu uso está sujeito aos termos descritos no arquivo LICENSE.  
+Você não pode copiar, distribuir, modificar ou reutilizar este código sem autorização prévia por escrito do autor.
