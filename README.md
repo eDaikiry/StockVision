@@ -109,19 +109,19 @@ This project is licensed under the MIT License (LICENSE).
 
 ## Funcionalidades:
 
-### Visualização de estoque em gráficos de barras dinâmicos com Chart.js.
+-Visualização de estoque em gráficos de barras dinâmicos com Chart.js.
 
-### Gerenciamento de produtos via API (adicionar, listar, zerar estoque).
+-Gerenciamento de produtos via API (adicionar, listar, zerar estoque).
 
-### Interface responsiva com formulário para adicionar produtos e botão "Zerar Estoque" com feedback visual.
+-Interface responsiva com formulário para adicionar produtos e botão "Zerar Estoque" com feedback visual.
 
-### Banco de dados SQLite para persistência de dados.
+-Banco de dados SQLite para persistência de dados.
 
-### Testes unitários para a API com Pytest.
+-Testes unitários para a API com Pytest.
 
-### Configuração com Docker para implantação simplificada.
+-Configuração com Docker para implantação simplificada.
 
-## Tecnologias
+## Tecnologias:
 
 ### Front-end: HTML, CSS, JavaScript, Chart.js
 
