@@ -1,21 +1,19 @@
-MIT License
-
 Copyright (c) 2025 Eduardo Daiki Riboldi Yamamoto
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+All rights reserved.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This project is provided strictly for personal portfolio purposes.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You are **not permitted** to copy, distribute, modify, reuse, or incorporate any part of this code in any other project, public or private, commercial or non-commercial, without prior written permission from the author.
+
+If you wish to use any part of this code, please contact the author directly.
+
+---
+
+Todos os direitos reservados.
+
+Este projeto é fornecido estritamente para fins de portfólio pessoal.
+
+Você **não tem permissão** para copiar, distribuir, modificar, reutilizar ou incorporar qualquer parte deste código em outros projetos, públicos ou privados, comerciais ou não comerciais, sem permissão prévia e por escrito do autor.
+
+Caso deseje utilizar qualquer parte deste código, entre em contato diretamente com o autor.
