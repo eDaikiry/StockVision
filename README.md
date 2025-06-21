@@ -1,24 +1,125 @@
 # StockVision
 
-**StockVision** é um sistema web para gerenciamento e visualização de estoque, com uma interface interativa e uma API RESTful. 
-Desenvolvido por **Eduardo Daiki Riboldi Yamamoto**, o projeto demonstra habilidades em desenvolvimento full-stack, integração com banco de dados e práticas modernas de DevOps.
+## English README
 
-## Funcionalidades
-- Visualização de estoque em gráficos de barras dinâmicos com Chart.js.
-- Gerenciamento de produtos via API (adicionar, listar, zerar estoque).
-- Interface responsiva com formulário para adicionar produtos e botão "Zerar Estoque" com feedback visual.
-- Banco de dados SQLite para persistência de dados.
-- Testes unitários para a API com Pytest.
-- Configuração com Docker para implantação simplificada.
+**StockVision** is a web system for inventory management and visualization, featuring an interactive interface and a RESTful API. 
+Developed by **Eduardo Daiki Riboldi Yamamoto**, the project showcases skills in full-stack development, database integration, and modern DevOps practices.
 
-## Tecnologias
+### Features
+- Inventory visualization with dynamic bar charts using Chart.js.
+- Product management via API (add, list, reset inventory).
+- Responsive interface with a form to add products and a "Reset Inventory" button with visual feedback.
+- SQLite database for data persistence.
+- API unit tests with Pytest.
+- Docker configuration for simplified deployment.
+
+### Technologies
 - **Front-end**: HTML, CSS, JavaScript, Chart.js
 - **Back-end**: Python, Flask, Flask-SQLAlchemy, Flask-Cors
-- **Banco de Dados**: SQLite
-- **Testes**: Pytest
+- **Database**: SQLite
+- **Tests**: Pytest
 - **DevOps**: Docker, Docker Compose
 
-## Estrutura do Projeto
+### Project Structure
+
+StockVision/
+├── backend/                # Back-end code (Flask)
+│   ├── app.py              # RESTful API
+│   ├── models.py           # Database model
+│   ├── requirements.txt    # Python dependencies
+│   └── tests/              # Unit tests
+├── frontend/               # Front-end code
+│   ├── index.html          # Main page
+│   ├── style.css           # Styles
+│   └── script.js           # Front-end logic
+├── screenshots/            # Screenshots
+├── Dockerfile              # Docker configuration
+├── docker-compose.yml      # Container orchestration
+├── README.md               # Documentation
+└── LICENSE                 # MIT License
+
+### How to Run Locally
+
+#### Prerequisites
+- Python 3.9+ ([install here](https://www.python.org/downloads/)).
+- Docker (optional, for running with containers) ([install here](https://www.docker.com/get-started)).
+- A modern browser (Chrome, Firefox, etc.).
+- Live Server extension in VS Code (for serving the front-end).
+
+#### Steps (Without Docker)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Daikiry/stockvision
+   cd stockvision
+
+Install back-end dependencies:
+
+cd backend
+pip install -r requirements.txt
+
+Start the Flask server:
+
+python app.py
+
+Open the front-end:
+Navigate to the frontend/ folder.
+
+Open index.html with the Live Server extension in VS Code (http://localhost:5500).
+
+Access the system in the browser:
+URL: http://localhost:5500
+
+Steps (With Docker)
+Clone the repository (as above).
+
+Start the containers:
+docker-compose up --build
+
+Access:
+Front-end: http://localhost:5500
+
+Back-end: http://localhost:5000/estoque
+
+Running Tests
+In the backend/ folder:
+pytest tests/
+
+Screenshots
+(To be added soon in the screenshots/ folder)
+Credits
+Developed by Eduardo Daiki Riboldi Yamamoto.
+License
+This project is licensed under the MIT License (LICENSE).
+
+Português README
+
+StockVision é um sistema web para gerenciamento e visualização de estoque, com uma interface interativa e uma API RESTful. 
+Desenvolvido por Eduardo Daiki Riboldi Yamamoto, o projeto demonstra habilidades em desenvolvimento full-stack, integração com banco de dados e práticas modernas de DevOps.
+Funcionalidades
+Visualização de estoque em gráficos de barras dinâmicos com Chart.js.
+
+Gerenciamento de produtos via API (adicionar, listar, zerar estoque).
+
+Interface responsiva com formulário para adicionar produtos e botão "Zerar Estoque" com feedback visual.
+
+Banco de dados SQLite para persistência de dados.
+
+Testes unitários para a API com Pytest.
+
+Configuração com Docker para implantação simplificada.
+
+Tecnologias
+Front-end: HTML, CSS, JavaScript, Chart.js
+
+Back-end: Python, Flask, Flask-SQLAlchemy, Flask-Cors
+
+Banco de Dados: SQLite
+
+Testes: Pytest
+
+DevOps: Docker, Docker Compose
+
+Estrutura do Projeto:
 
 StockVision/
 ├── backend/                # Código do back-end (Flask)
@@ -36,29 +137,28 @@ StockVision/
 ├── README.md               # Documentação
 └── LICENSE                 # Licença MIT
 
-## Como Rodar Localmente
+Como Rodar Localmente
+Pré-requisitos
+Python 3.9+ ([instale aqui](https://www.python.org/downloads/))/
 
-### Pré-requisitos
-- Python 3.9+ ([instale aqui](https://www.python.org/downloads/)).
-- Docker (opcional, para rodar com contêineres) ([instale aqui](https://www.docker.com/get-started)).
-- Um navegador moderno (Chrome, Firefox, etc.).
-- Extensão Live Server no VS Code (para servir o front-end).
+Docker (opcional, para rodar com contêineres) instale aqui.
 
-### Passos (Sem Docker)
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Daikiry/stockvision
-   cd stockvision
+Um navegador moderno (Chrome, Firefox, etc.).
+
+Extensão Live Server no VS Code (para servir o front-end).
+
+Passos (Sem Docker)
+Clone o repositório:
+
+git clone https://github.com/Daikiry/stockvision
+cd stockvision
 
 Instale as dependências do back-end:
-bash
 
 cd backend
 pip install -r requirements.txt
 
 Inicie o servidor Flask:
-bash
-
 python app.py
 
 Abra o front-end:
@@ -72,9 +172,6 @@ URL: http://localhost:5500
 Passos (Com Docker)
 Clone o repositório (como acima).
 
-Inicie os containers:
-bash
-
 docker-compose up --build
 
 Acesse:
@@ -82,15 +179,15 @@ Front-end: http://localhost:5500
 
 Back-end: http://localhost:5000/estoque
 
- Executando Testes
+Executando Testes
 Na pasta backend/:
-bash
-
 pytest tests/
 
- Capturas de Tela
+Capturas de Tela
 (Em breve, capturas serão adicionadas na pasta screenshots/)
- Créditos
+Créditos
 Desenvolvido por Eduardo Daiki Riboldi Yamamoto.
- Licença
+Licença
 Este projeto é licenciado sob a MIT License (LICENSE).
+
+
