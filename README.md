@@ -5,7 +5,7 @@
 **StockVision** is a web system for inventory management and visualization, featuring an interactive interface and a RESTful API. 
 Developed by **Eduardo Daiki Riboldi Yamamoto**, the project showcases skills in full-stack development, database integration, and modern DevOps practices.
 
-**I designed this project in Portuguese, but it must be updated to English, but it is easy to understand the concept**
+**I designed this project in Portuguese, but it must be updated to English.**
 
 ![Stock Vision Screenshot](https://github.com/user-attachments/assets/c4002d27-d8e0-419a-86c6-4e61ebd2d80e)
 
